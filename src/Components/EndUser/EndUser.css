@@ -1,0 +1,17 @@
+.complete{
+    position: absolute;
+    top:35%;
+    left: 35%;
+    transform: translate(-15%,-30%);
+    width: 75%;
+    padding:50px 50px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+.control1{
+    float: right;
+}
+
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
