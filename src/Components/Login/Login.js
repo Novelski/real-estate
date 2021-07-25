@@ -12,16 +12,16 @@ const Login = () => {
             <label>Username</label>
              <input type="text" name="name" id="name"/>
             </div>
-            <div class="control">
+            <div className="control">
                      <label>Password</label>
                      <input type="password" name="psw" id="psw"/>
                  </div>
                  <span><input type="checkbox"/> Remember me..</span>
-                 <div class="control">
+                 <div className="control">
                      <input  type="submit" value="Login"/>
                  </div>
           </form>
-          <div class="link">
+          <div className="link">
      <a href=""> Forgot Password ?</a>
              </div>
         </div>

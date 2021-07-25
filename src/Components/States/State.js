@@ -20,9 +20,9 @@ const State = () => {
         </Button></div>
         </div>
         
-  <div class="row">
-    <div class="col-12">
-      <table class="table table-bordered">
+  <div className="row">
+    <div className="col-12">
+      <table className="table table-bordered">
         <thead>
           <tr>
             <th scope="col">Name</th>
@@ -42,8 +42,8 @@ const State = () => {
             <td><SwitchBtn/></td>
             <td>
               
-              <button type="button" class="btn btn-success">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" className="btn btn-success">Edit</button>
+            <button type="button" className="btn btn-danger">Delete</button>
             </td>
           </tr>
           <tr>
@@ -53,8 +53,8 @@ const State = () => {
             <td>3.417</td>
             <td><SwitchBtn/></td>
             <td>
-            <button type="button" class="btn btn-success">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
+            <button type="button" className="btn btn-success">Edit</button>
+            <button type="button" className="btn btn-danger">Delete</button>
             </td>
           </tr>
           <tr>
@@ -64,8 +64,8 @@ const State = () => {
             <td>1.234</td>
             <td><SwitchBtn/></td>
             <td>
-            <button type="button" class="btn btn-success">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
+            <button type="button" className="btn btn-success">Edit</button>
+            <button type="button" className="btn btn-danger">Delete</button>
             </td>
           </tr>
         </tbody>

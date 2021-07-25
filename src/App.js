@@ -1,6 +1,6 @@
 import './App.css';
 
-import {Route, BrowserRouter as Router, Switch} from 'react-router-dom'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 import AdminUser from './Components/AdminUser/AdminUser';
 import BookingList from './Components/Booking list/BookingList';
@@ -18,25 +18,25 @@ import Zone from './Components/Zones/Zone';
 
 function App() {
   return (
-<>
-  
-  <Router><Navbar/>
-  <Switch>
-    <Route path='/' exact component={UserManagement}/>
-    <Route path='/franchise' component={Franchise}/>
-    <Route path='/state' component={State}/>
-    <Route path='/city' component={City}/>
-    <Route path='/zone' component={Zone}/>
-    <Route path='/pincode' component={Pincode}/>
-    <Route path='/settings' component={Settings}/>
-    <Route path='/property' component={Property}/>
-    <Route path='/adminuser' component={AdminUser}/>
-    <Route path='/enduser' component={EndUser}/>
-    <Route path='/order' component={BookingList}/>
-    <Route path='/report' component={Report}/>
-    </Switch>
-    </Router>
-</>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route component={UserManagement} exact path='/' />
+          <Route component={Franchise} path='/franchise' />
+          <Route component={State} path='/state' />
+          <Route component={City} path='/city' />
+          <Route component={Zone} path='/zone' />
+          <Route component={Pincode} path='/pincode' />
+          <Route component={Settings} path='/settings' />
+          <Route component={Property} path='/property' />
+          <Route component={AdminUser} path='/adminuser' />
+          <Route component={EndUser} path='/enduser' />
+          <Route component={BookingList} path='/order' />
+          <Route component={Report} path='/report' />
+        </Switch>
+      </Router>
+    </>
   );
 }
 

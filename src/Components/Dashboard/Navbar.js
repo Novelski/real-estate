@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
-import {SidebarData} from './SideBarData';
+import { SidebarData } from './SideBarData';
 import companyLogo from '../../assets/img/1.png'
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -13,14 +13,13 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
-          
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu active'}>
           <ul className='nav-menu-items' >
             <li className='navbar-toggle'>
-            <img src={companyLogo} alt="BigCo Inc. logo"/>
+              <img src={companyLogo} alt="BigCo Inc. logo" />
               <div className="date">
-{currDate}</div>
+                {currDate}</div>
             </li>
             {SidebarData.map((item, index) => {
               return (

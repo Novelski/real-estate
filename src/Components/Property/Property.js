@@ -20,9 +20,9 @@ const Property = () => {
         </Button></div>
         </div>
         
-  <div class="row">
-    <div class="col-12">
-      <table class="table table-bordered">
+  <div className="row">
+    <div className="col-12">
+      <table className="table table-bordered">
         <thead>
           <tr>
             <th scope="col">Name</th>

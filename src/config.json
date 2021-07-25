@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://localhost:44355/",
+  
+  "appType": "Web App",
+
+  "getUsersListAPI": "api/Admins",
+  
+  "endUserLogin": "api/v1/eu/user/login",
+
+  "postSPUserSigninAPI": "api/v1/sp/user/signin",
+
+  "putSPUserEditAPI": "api/v1/sp/user/edit",
+
+  "deleteEUSupportDeleteAPI": "api/v1/eu/user/support/"
+
+}
