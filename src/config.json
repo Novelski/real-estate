@@ -1,9 +1,9 @@
 {
-  "baseUrl": "https://localhost:44355/",
+  "baseUrl": "http://localhost:44361/",
   
   "appType": "Web App",
 
-  "getUsersListAPI": "api/Admins",
+  "getUsersListAPI": "api/users",
   
   "endUserLogin": "api/v1/eu/user/login",
 

@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SideBarData';
-import companyLogo from '../../assets/img/1.png'
+import companyLogo from '../../assets/img/LogoRMbg.png'
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   const currDate = new Date().toLocaleDateString();

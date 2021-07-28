@@ -6,7 +6,6 @@ const noInternetResponse = {
   statusMessage: 'No Internet Connection',
 };
 // const myApi = axios.create();
-alert('-------------------')
 export const getCall = async obj => {
     console.log('-----obj', obj);
   var input = navigator.onLine;
